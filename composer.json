@@ -1,0 +1,25 @@
+{
+    "name": "sivaschenko/module-rag",
+    "description": "Adobe Commerce PHP RAG demo module",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*",
+        "google-gemini-php/client": "*",
+        "codewithkyrian/chromadb-php": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PHPDublin\\Rag\\": ""
+        }
+    }
+}
+
