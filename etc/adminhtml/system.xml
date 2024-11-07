@@ -13,6 +13,12 @@
                 <field id="gemini" translate="label comment" type="text" sortOrder="10" showInDefault="1">
                     <label>Gemini API KEY</label>
                 </field>
+                <field id="claude" translate="label comment" type="text" sortOrder="10" showInDefault="1">
+                    <label>Claude API KEY</label>
+                </field>
+                <field id="openai" translate="label comment" type="text" sortOrder="10" showInDefault="1">
+                    <label>OpenAI API KEY</label>
+                </field>
             </group>
         </section>
     </system>

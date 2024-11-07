@@ -11,7 +11,9 @@
         "magento/framework": "*",
         "magento/module-catalog": "*",
         "google-gemini-php/client": "*",
-        "codewithkyrian/chromadb-php": "*"
+        "codewithkyrian/chromadb-php": "*",
+        "claude-php/claude-3-api": "*",
+        "openai-php/client": "*"
     },
     "autoload": {
         "files": [

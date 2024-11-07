@@ -10,6 +10,8 @@
         <rag>
             <llm>
                 <gemini>token</gemini>
+                <claude>token</claude>
+                <openai>token</openai>
             </llm>
         </rag>
     </default>

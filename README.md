@@ -72,6 +72,8 @@ Set the API keys:
 
 ```
 bin/magento config:set rag/llm/gemini <GEMINI_API_KEY>
+bin/magento config:set rag/llm/claude <CLAUDE_API_KEY>
+bin/magento config:set rag/llm/openai <OPENAI_API_KEY>
 ```
 
 Run Chroma vector DB following [the readme](https://github.com/CodeWithKyrian/chromadb-php) or run:

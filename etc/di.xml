@@ -12,6 +12,7 @@
                 <item name="ragIndex" xsi:type="object">PHPDublin\Rag\Console\Command\Index</item>
                 <item name="ragSearch" xsi:type="object">PHPDublin\Rag\Console\Command\Search</item>
                 <item name="ragPrompt" xsi:type="object">PHPDublin\Rag\Console\Command\Prompt</item>
+                <item name="ragImprove" xsi:type="object">PHPDublin\Rag\Console\Command\Improve</item>
             </argument>
         </arguments>
     </type>
@@ -19,6 +20,8 @@
         <arguments>
             <argument name="adapters" xsi:type="array">
                 <item name="gemini" xsi:type="object">PHPDublin\Rag\Model\Llm\Gemini</item>
+                <item name="claude" xsi:type="object">PHPDublin\Rag\Model\Llm\Claude</item>
+                <item name="openai" xsi:type="object">PHPDublin\Rag\Model\Llm\OpenAi</item>
             </argument>
             <argument name="default" xsi:type="string">gemini</argument>
         </arguments>

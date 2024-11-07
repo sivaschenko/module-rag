@@ -24,7 +24,7 @@ class Search extends Command
     protected function configure()
     {
         $this->setName('rag:search');
-        $this->setDescription('RAG index.');
+        $this->setDescription('RAG search.');
         $this->addArgument('text', InputArgument::REQUIRED);
     }
 
